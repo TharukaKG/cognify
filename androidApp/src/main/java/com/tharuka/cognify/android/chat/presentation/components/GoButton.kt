@@ -3,7 +3,9 @@ package com.tharuka.cognify.android.chat.presentation.components
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
@@ -25,6 +27,7 @@ fun GoButton(
 ) {
     Box(
         modifier = modifier
+            .height(48.dp)
             .clip(RoundedCornerShape(48))
             .background(
                 color = if (enable) {
@@ -39,7 +42,7 @@ fun GoButton(
         Text(
             text = stringResource(id = R.string.go),
             style = MaterialTheme.typography.button,
-            modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp)
+            modifier = Modifier.padding(horizontal = 24.dp, vertical = 4.dp)
         )
     }
 }

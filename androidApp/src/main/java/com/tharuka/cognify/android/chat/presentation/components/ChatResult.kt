@@ -20,16 +20,15 @@ import com.tharuka.cognify.android.core.presentatiton.components.CloseButton
 
 @Composable
 fun ChatResult(
-    question:String,
-    answer:String,
-    onClose:()->Unit,
-    onCopy:(String)->Unit,
+    question: String,
+    answer: String,
+    onClose: () -> Unit,
+    onCopy: (String) -> Unit,
     modifier: Modifier = Modifier
 ) {
     Column(
         modifier = modifier
             .fillMaxWidth()
-            .padding(12.dp)
     ) {
         //close button
         Box(modifier = Modifier.fillMaxWidth(), contentAlignment = Alignment.CenterEnd) {
@@ -65,7 +64,10 @@ fun ChatResult(
                         modifier = Modifier.padding(8.dp)
                     )
                     //copy button
-                    Box(modifier = Modifier.fillMaxWidth(), contentAlignment = Alignment.CenterEnd) {
+                    Box(
+                        modifier = Modifier.fillMaxWidth(),
+                        contentAlignment = Alignment.CenterEnd
+                    ) {
                         IconButton(onClick = { onCopy(answer) }) {
                             Icon(
                                 imageVector = Icons.Rounded.ContentCopy,

@@ -11,4 +11,5 @@ sealed class ChatEvent {
     object GoToProfile: ChatEvent()
     data class PermissionResult(val isGRanted:Boolean, val isPermanentlyDeclined:Boolean): ChatEvent()
     object ToggleRecord: ChatEvent()
+    object ClearQuestion: ChatEvent()
 }

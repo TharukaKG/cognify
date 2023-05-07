@@ -72,6 +72,7 @@ fun PromptScreen(
                 answer = state.answer ?: "",
                 generatingStatus = state.generatingStatus,
                 onChangeQuestionText = { questionText -> onEvent(ChatEvent.OnTypeQuestion(questionText)) },
+                onClearQuestion = {onEvent(ChatEvent.ClearQuestion)},
                 onClose = {
                     onEvent(ChatEvent.CloseChatResult)
                           },
@@ -90,7 +91,7 @@ fun PromptScreen(
             )
             // Buttons Row
             Row(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier.fillMaxWidth().padding(4.dp),
                 horizontalArrangement = Arrangement.SpaceBetween,
                 verticalAlignment = Alignment.CenterVertically
             ) {
@@ -104,6 +105,7 @@ fun PromptScreen(
                     onClick = { onEvent(ChatEvent.Go) },
                     enable = state.question.isNotEmpty()
                 )
+                Spacer(modifier = Modifier.width(48.dp))
             }
         }
     }

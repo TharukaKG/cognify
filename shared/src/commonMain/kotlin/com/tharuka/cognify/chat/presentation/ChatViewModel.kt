@@ -61,6 +61,15 @@ class ChatViewModel(
                     )
                 }
             }
+            is ChatEvent.ClearQuestion ->{
+                _state.update {
+                    it.copy(
+                        generatingStatus = GeneratingStatus.IDLE,
+                        voiceToTextState = VoiceToTextStatus.IDLE,
+                        question = ""
+                    )
+                }
+            }
             is ChatEvent.Go -> {
                 chat(state.value)
             }
