@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="go_back">go back</string>
+    <string name="history">History</string>
+    <string name="ask_anything">Ask Anything</string>
+    <string name="go">GO</string>
+    <string name="speak">speak</string>
+    <string name="close">close</string>
+    <string name="copied_to_clipboard">copied</string>
+    <string name="continue_to_chat">Continue</string>
+    <string name="copy">copy</string>
+    <string name="chat">Chat</string>
+    <string name="goto_list">go to list</string>
+    <string name="profile">profile</string>
+    <string name="new_chat">New Chat</string>
+    <string name="listening">Listening...</string>
+    <string name="error_speech_recognition_not_availabele">Voice to text not availabe</string>
+</resources>
