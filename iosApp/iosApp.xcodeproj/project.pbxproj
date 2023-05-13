@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,16 @@
 		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
+		DC07864A2A0C960F003D4F4E /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0786492A0C960F003D4F4E /* ChatView.swift */; };
+		DC07864C2A0CBAB2003D4F4E /* GoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07864B2A0CBAB2003D4F4E /* GoButton.swift */; };
+		DC0863772A09F770006B0C10 /* IOSVoiceToTextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0863762A09F770006B0C10 /* IOSVoiceToTextParser.swift */; };
+		DC08637A2A0A0399006B0C10 /* ChatTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0863792A0A0399006B0C10 /* ChatTextField.swift */; };
+		DC0C8C652A0D09BA00594728 /* SpeakButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0C8C642A0D09BA00594728 /* SpeakButton.swift */; };
+		DCD6DB5A2A08ABBA00222653 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD6DB592A08ABBA00222653 /* Color.swift */; };
+		DCD6DB5D2A08C60300222653 /* ChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD6DB5C2A08C60300222653 /* ChatScreen.swift */; };
+		DCD6DB602A09201000222653 /* IOSChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD6DB5F2A09201000222653 /* IOSChatViewModel.swift */; };
+		DCD6DB642A0953C100222653 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD6DB632A0953C100222653 /* TopBar.swift */; };
+		DCDF36102A0B3EA600137A34 /* ChatResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF360F2A0B3EA600137A34 /* ChatResult.swift */; };
 		EEB08E52C0AF34FB3ABD1993 /* Pods_iosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A140173982A2A12D1F7872F5 /* Pods_iosApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +33,16 @@
 		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7555FF8C242A565B00829871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A140173982A2A12D1F7872F5 /* Pods_iosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0786492A0C960F003D4F4E /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		DC07864B2A0CBAB2003D4F4E /* GoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoButton.swift; sourceTree = "<group>"; };
+		DC0863762A09F770006B0C10 /* IOSVoiceToTextParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSVoiceToTextParser.swift; sourceTree = "<group>"; };
+		DC0863792A0A0399006B0C10 /* ChatTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTextField.swift; sourceTree = "<group>"; };
+		DC0C8C642A0D09BA00594728 /* SpeakButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakButton.swift; sourceTree = "<group>"; };
+		DCD6DB592A08ABBA00222653 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		DCD6DB5C2A08C60300222653 /* ChatScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreen.swift; sourceTree = "<group>"; };
+		DCD6DB5F2A09201000222653 /* IOSChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSChatViewModel.swift; sourceTree = "<group>"; };
+		DCD6DB632A0953C100222653 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
+		DCDF360F2A0B3EA600137A34 /* ChatResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatResult.swift; sourceTree = "<group>"; };
 		EE91FA1074BA06F6367D0C27 /* Pods-iosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosApp.debug.xcconfig"; path = "Target Support Files/Pods-iosApp/Pods-iosApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +95,8 @@
 		7555FF7D242A565900829871 /* iosApp */ = {
 			isa = PBXGroup;
 			children = (
+				DCD6DB5B2A08C5D000222653 /* chat */,
+				DCD6DB582A08ABA000222653 /* core */,
 				058557BA273AAA24004C7B11 /* Assets.xcassets */,
 				7555FF82242A565900829871 /* ContentView.swift */,
 				7555FF8C242A565B00829871 /* Info.plist */,
@@ -90,8 +112,71 @@
 				EE91FA1074BA06F6367D0C27 /* Pods-iosApp.debug.xcconfig */,
 				4BA78242C242040A309D4F82 /* Pods-iosApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC0863752A09F753006B0C10 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				DC0863762A09F770006B0C10 /* IOSVoiceToTextParser.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		DC0863782A0A02A4006B0C10 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				DC0863792A0A0399006B0C10 /* ChatTextField.swift */,
+				DCDF360F2A0B3EA600137A34 /* ChatResult.swift */,
+				DC0786492A0C960F003D4F4E /* ChatView.swift */,
+				DC07864B2A0CBAB2003D4F4E /* GoButton.swift */,
+				DC0C8C642A0D09BA00594728 /* SpeakButton.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		DCD6DB582A08ABA000222653 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				DCD6DB612A09538400222653 /* presentation */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		DCD6DB5B2A08C5D000222653 /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				DC0863752A09F753006B0C10 /* data */,
+				DCD6DB5E2A08C62F00222653 /* presentation */,
+			);
+			path = chat;
+			sourceTree = "<group>";
+		};
+		DCD6DB5E2A08C62F00222653 /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				DC0863782A0A02A4006B0C10 /* components */,
+				DCD6DB5C2A08C60300222653 /* ChatScreen.swift */,
+				DCD6DB5F2A09201000222653 /* IOSChatViewModel.swift */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		DCD6DB612A09538400222653 /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				DCD6DB622A09539D00222653 /* components */,
+				DCD6DB592A08ABBA00222653 /* Color.swift */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		DCD6DB622A09539D00222653 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				DCD6DB632A0953C100222653 /* TopBar.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +187,7 @@
 			buildConfigurationList = 7555FFA5242A565B00829871 /* Build configuration list for PBXNativeTarget "iosApp" */;
 			buildPhases = (
 				834BCD07198A51A62F3CDBDB /* [CP] Check Pods Manifest.lock */,
+				DC2CF17D2A088D5D00F1FED1 /* Run Script */,
 				7555FF77242A565900829871 /* Sources */,
 				7555FF79242A565900829871 /* Resources */,
 				DA21C4A0B84AAAFE6CF7F144 /* Frameworks */,
@@ -184,6 +270,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DC2CF17D2A088D5D00F1FED1 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd \"$SRCROOT/..\"\n./gradlew :shared:embedAndSignPodAppleFrameworkForXcode\n";
+		};
 		FA4412E31CC86388F250B54A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -208,8 +312,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0C8C652A0D09BA00594728 /* SpeakButton.swift in Sources */,
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
+				DC07864A2A0C960F003D4F4E /* ChatView.swift in Sources */,
+				DCD6DB5A2A08ABBA00222653 /* Color.swift in Sources */,
+				DC0863772A09F770006B0C10 /* IOSVoiceToTextParser.swift in Sources */,
+				DCDF36102A0B3EA600137A34 /* ChatResult.swift in Sources */,
+				DC07864C2A0CBAB2003D4F4E /* GoButton.swift in Sources */,
+				DCD6DB602A09201000222653 /* IOSChatViewModel.swift in Sources */,
+				DCD6DB5D2A08C60300222653 /* ChatScreen.swift in Sources */,
+				DCD6DB642A0953C100222653 /* TopBar.swift in Sources */,
+				DC08637A2A0A0399006B0C10 /* ChatTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,10 +454,25 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"iosApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/../../shared/build/cocoapods/framework\"",
+					"$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+				);
 				INFOPLIST_FILE = iosApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-framework",
+					"\"shared\"",
+					"$(inherited)",
+					"-framework",
+					shared,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = orgIdentifier.iosApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,10 +489,25 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"iosApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/../../shared/build/cocoapods/framework\"",
+					"$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+				);
 				INFOPLIST_FILE = iosApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-framework",
+					"\"shared\"",
+					"$(inherited)",
+					"-framework",
+					shared,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = orgIdentifier.iosApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";

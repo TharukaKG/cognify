@@ -3,9 +3,12 @@ import shared
 
 struct ContentView: View {
 	let greet = Greeting().greet()
+    
+    let appModule: AppModule = AppModule()
+
 
 	var body: some View {
-		Text(greet)
+        ChatScreen(chatUseCase: appModule.chatUseCase, getLastChatIsUseCase: appModule.getLastChatIdUseCase)
 	}
 }
 

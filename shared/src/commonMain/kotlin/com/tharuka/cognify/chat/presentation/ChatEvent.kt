@@ -1,7 +1,5 @@
 package com.tharuka.cognify.chat.presentation
 
-import io.realm.kotlin.types.RealmUUID
-
 sealed class ChatEvent {
     data class OnTypeQuestion(val question:String): ChatEvent()
     object Go: ChatEvent()
